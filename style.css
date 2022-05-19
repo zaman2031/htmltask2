@@ -76,7 +76,7 @@
     text-align: center;
 }
 
-.first-section-paragraph{
+.section-paragraph{
     
     text-align: center;
      
@@ -89,6 +89,7 @@
      height: 50px;
      border: white;
      width: 130px;
+     cursor: pointer;
      color: white;
  }
 .section-title{
