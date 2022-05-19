@@ -1,6 +1,9 @@
-.first-section{
+ 
+
+  .first-section{
     border: 4px solid red;
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 .heading-1{
@@ -49,27 +52,6 @@
    
 }
 
-.second-div {
-    float: right;
-    margin-right: 95px;
-    padding-top: 110px;
-    width: 19.33%;
-
-    text-align: center;
-    height: 300px;
-   
-}
-
-.third-div {
-    float: right;
-    margin-right: 95px;
-    padding-top: 110px;
-    width: 19.33%;
-
- text-align: center;
-    height: 300px;
-   
-}
 
 .second-section{
     height: 400px;
@@ -77,9 +59,3 @@
     font-size: 1.2rem;
 }
 
-.paraheading-2{
-    color: red;
-    margin: 20px;
-    font-size: 2rem;
-};
- 
