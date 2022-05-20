@@ -1,0 +1,45 @@
+.container{
+  clear:both;
+  overflow: auto;
+}
+
+//  container nav{
+//    float: right;
+// }
+
+.logo img {
+  float: left;
+  margin: 10px;
+  width: 7%;
+}
+
+
+
+
+ ul li{
+   display: inline-block;
+   float: right;
+   padding: 14px;
+   font-size: 20px;
+   margin: 10px;
+   cursor: pointer;
+ }
+
+ 
+.list-item{
+    color: rgb(68, 247, 68);
+}
+.list-image{
+    float: right;
+    margin: 0;
+    padding: 0;
+    // display: flex;
+    // justify-content: center;
+}
+ 
+.Logout-button{
+    float: right;
+    border: white;
+    width: 90px;
+    background-color: white;
+}
