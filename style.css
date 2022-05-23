@@ -2,35 +2,24 @@
   border: 4px solid red;
   font-size: 1.2rem;
   margin-bottom: 20px;
-}
-
-.section-heading {
   text-align: center;
 }
-
 .link {
   color: rgb(197, 62, 186);
 }
-
 .button {
-  background-color: rgb(100, 180, 100);
+  background-color:  #53D16E;
   height: 50px;
   border: white;
   width: 130px;
   cursor: pointer;
   color: white;
 }
-
 .section-title {
   color: red;
   font-size: 2rem;
   margin: 1rem 200px;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 .section-part {
   width: 30%;
   padding: 2rem;
@@ -39,12 +28,10 @@
   justify-content: center;
   align-items: center;
 }
-
 .second-section {
   border: 4px solid red;
   font-size: 1.2rem;
 }
-
 .main-section {
   display: flex;
   justify-content: center;
