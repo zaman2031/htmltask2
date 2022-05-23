@@ -1,0 +1,35 @@
+.first-section {
+  border: 4px solid #ff0000;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.link {
+  color: #dd0add;
+}
+.button {
+  background-color: #53D16E;
+  height: 50px;
+  border: #ffffff;
+  width: 130px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.section-title {
+  color: #ff0000;
+  font-size: 2rem;
+  margin: 1rem 200px;
+}
+.section-part {
+  width: 30%;
+  padding: 2rem;
+}
+.second-section {
+  border: 4px solid #ff0000;
+  font-size: 1.2rem;
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
