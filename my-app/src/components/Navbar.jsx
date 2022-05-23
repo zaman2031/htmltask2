@@ -27,31 +27,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-
-// import React from 'react';
-// import logo from '../Logos/logo.png'
-// import newLogo from '../Logos/logo.png';
-// import './Navbar.scss'
-
-// const Navbar = () => {
-//     return (
-//         <>
-//             <nav>
-//                 <div className="logo">
-//                     <img src={logo} alt="This is image" />
-//                 </div>
-//                 <ul>
-//                     <li>Job search</li>
-//                     <li>be on one's mind!</li>
-//                     <li>message</li>
-//                     <li className='list-item'>My page</li>
-//                 </ul>
-//                 <div className="logo">
-//                     <img src={logo} alt="This is image" />
-//                 </div>
-//             </nav>
-//         </>
-//     );
-// }
-
-// export default Navbar;
+ 
