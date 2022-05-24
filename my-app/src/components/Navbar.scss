@@ -2,25 +2,18 @@
   clear:both;
   overflow: auto;
 }
-
 nav{
   float:right;
 }
-
 .logo img {
   float: left;
   margin: 10px;
   width: 7%;
 }
-
-
-
-
- ul li{
+  ul li{
    display: inline-block;
    padding: 14px;
  }
-
 ul li{
   display: inline-block;
  padding:14px;
@@ -28,7 +21,6 @@ ul li{
   margin: 10px;
   cursor: pointer;
 }
-
 .list-item{
     color: rgb(68, 247, 68);
 }
@@ -39,8 +31,7 @@ ul li{
     display: flex;
     justify-content: center;
 }
- 
-.Logout-button{
+ .Logout-button{
     float: right;
     border: white;
     width: 90px;
