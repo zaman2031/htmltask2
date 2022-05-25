@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className='main-container'>
             <div className='main-logo'>
-                <img src={logo} alt="This is logo of company" />
+                <img src={logo} alt="wecare-Logo " />
             </div>
             <nav>
                 <ul>
@@ -14,7 +14,7 @@ const Navbar = () => {
                     <li>be on one's mind!</li>
                     <li>message</li>
                     <li className='list-item'>My page</li>
-                    <li className='user-mean'>N</li>
+                    <li className='user-main'>N</li>
                 </ul>
                 <button className='logout-button'>Logout</button>
             </nav>
