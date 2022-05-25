@@ -14,7 +14,7 @@ const Navbar = () => {
                     <li>be on one's mind!</li>
                     <li>message</li>
                     <li className='list-item'>My page</li>
-                    <li className='list-styling'>N</li>
+                    <li className='user-mean'>N</li>
                 </ul>
                 <button className='logout-button'>Logout</button>
             </nav>
