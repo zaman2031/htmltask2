@@ -5,9 +5,7 @@ import './Navbar.scss';
 const Navbar = () => {
     return (
         <div className='main-container'>
-            <div className='main-logo'>
-                <img src={logo} alt="wecare-Logo " />
-            </div>
+            <img className='main-logo' src={logo} alt="wecare-Logo"  width="190" height="100" />
             <nav>
                 <ul>
                     <li>Job search</li>
