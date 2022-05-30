@@ -1,10 +1,10 @@
 import React from 'react';
-import Hope from './components/hope';
+import Info from './components/info';
 
 function App() {
   return (
     <div className="App">
-       <Hope />
+       <Info />
     </div>
   );
 }
