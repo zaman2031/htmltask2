@@ -1,10 +1,10 @@
 import React from 'react';
-import Profile from './components/Profile';
+import Hope from './components/hope';
 
 function App() {
   return (
     <div className="App">
-       <Profile />
+       <Hope />
     </div>
   );
 }
