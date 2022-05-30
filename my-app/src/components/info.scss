@@ -1,0 +1,65 @@
+$primary-color: #f2f2f2;
+$secondary-color: #45e2b6;
+$main-color: #000000;
+
+.Info-section {
+  margin: 100px 0 2px 1620px;
+  padding: 30px;
+  width: 390px;
+  line-height: 3rem;
+  box-shadow: 2px 2px 4px 4px $primary-color;
+
+  .main-Info {
+    display: flex;
+    justify-content: space-between;
+
+    .person-Info {
+      color: $secondary-color;
+      font-size: 1.2rem;
+    }
+
+    .text-private {
+      color: $main-color;
+    }
+
+    .button-editing::before {
+      content: url(../assets/edit-icon.png);
+    }
+  }
+
+  .main-work {
+    padding: 20px;
+
+    .user-logo::before {
+      content: url(../assets/user.png);
+    }
+
+    .hyphens {
+      margin: 5px;
+    }
+
+    .hyphen {
+      margin: 2.2rem;
+    }
+
+    .user-email::before {
+      content: url(../assets/home.png);
+      margin: 5px 5px 5px 5px;
+    }
+
+    .user-phone::before {
+      content: url(../assets/home.png);
+      margin: 5px 5px 5px 5px;
+    }
+
+    .user-house::before {
+      content: url(../assets/home.png);
+      margin: 5px 5px 5px 5px;
+    }
+
+    .bank-details::before {
+      content: url(../assets/home.png);
+      margin: 5px 5px 5px 5px;
+    }
+  }
+}
