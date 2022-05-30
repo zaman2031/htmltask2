@@ -1,68 +1,102 @@
- .profile-section {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
- }
- .profile-border{
-     border: 3px solid #d0d0d0;
-     padding: 4rem;
- }
- .Profile-page {
-     display: flex;
- }
- .Nlogo {
-     margin: 20px;
-     height: 22%;
-     width: 22%;
-     display: flex;
-     justify-content: left;
- }
- .user-detail {
-     text-align: center;
-     margin-top: 30px;
-     line-height: 2;
-     margin-left: 44px;
- }
-.user-name {
-     color: #00ffff;
-     margin-right: 14px;
- }
- .location-detail::before{
-      content: url(../Logos/location.png);
- }
- .occupation-detail::before{
-     content: url(../Logos//occupation.png);
- }
- .edit-text {
-     margin: 20px;
-     margin-left: 260px;
- }
- .edit-text::before {
-     content: url(../Logos/edit-icon.png);
- }
-.user-introduction {
-     margin: 30px;
- }
- .user-intro {
-     border-bottom: 1px solid #00ffff;
-     padding-bottom: 12px;
- }
- .user-intro:after {
-     content: url(../Logos/Addition.png);
-     margin-left: 670px;
-     display: inline-block;
- }
-.user-Selfintro {
-     border-bottom: 1px solid #00ffff;
-     padding-bottom: 12px;
- }
-.user-Selfintro:after {
-     content: url(../Logos/edit-icon.png);
-     margin-left: 620px;
-     display: inline-block;
- }
- .self-edit {
-     float: right;
-     margin-top: 50px;
- }
+$primary-color: #F2F2F2;
+$secondary-color: #ffffff;
+$basic-color:  #45E2B6; 
+$main-color: #808080;
+
+.profile-section {
+    float: right;
+    margin: 200px 890px 0 0;
+    box-shadow: $primary-color 0px 7px 29px 0px;
+    background-color: $secondary-color;
+    border: none;
+    padding: 3rem;
+
+    .Profile-page {
+        display: flex;
+
+        .main-logo {
+            color: $secondary-color;
+            background-color: #00907E;
+            border-radius: 10px;
+            font-size: 100px;
+            font-weight: 500px;
+            height: 170px;
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .user-details {           
+            text-align: center;
+            margin: 10px 0 0 44px;
+            font-size: 1.1rem;
+            line-height: 1.7rem;
+
+            .user-name {
+                color: $basic-color;
+                padding-right: 14px;
+            }
+
+            .Image-section {
+                display: flex;
+                margin: 15px;
+            }
+
+            .main-icons {
+                display: flex;
+                height: 20px;
+                width: 20px;
+                margin: 5px 5px 0 0 ; 
+            }            
+        }
+
+        .text-editors {
+            margin: 10px 0 0 400px;
+        }
+
+        .text-editors::before {
+            content: url(../assets/edit-icon.png);
+        }
+    }
+
+    .text-editor {
+        float: right;
+        margin: 52px 12px 0 0 ;
+    }
+
+    .text-editor::before {
+        content: url(../assets/edit-icon.png);
+        margin: 5px 0 30px 0;
+    }
+
+    .user-introduction {
+        margin: 10px;
+
+        .user-Intro {
+            border-bottom: 1px solid $basic-color;
+            font-size: 1.1rem;
+            padding: 16px 0;
+        }
+
+        .paragraph-editing {
+            color: $main-color;
+        }
+    }
+
+    .Add-icon {
+        float: right;
+        margin: 35px 12px 0 0 ;
+    }
+
+    .Add-icon::before {
+        content: url(../assets//Addition.png);
+        margin: 5px;
+    }
+
+    .user-history {
+        border-bottom: 1px solid $basic-color;
+        font-size: 1.1rem;
+        padding: 16px 0;
+    }
+}

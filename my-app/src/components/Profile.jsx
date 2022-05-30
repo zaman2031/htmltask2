@@ -1,46 +1,45 @@
- import React from 'react';
-import logo from '../Logos/New-logo.jpeg';
+import React from 'react';
+import logo from '../assets/location.png';
+import newLogo from '../assets/occupation.png'
 import './Profile.scss'
 
 const Profile = () => {
     return (
         <div className='profile-section'>
-            <div className='profile-border'>
+            <div >
                 <div className='Profile-page'>
-                    <div className='New-logo'>
-                        <img src={logo} />
+                    <div className='main-logo'>
+                        <p> N</p>
                     </div>
-                    <section >
-                        <div className='user-detail'>
-                            <div>
-                                <span className='user-name'>Nabeel</span>
-                                Ahmad 00
+                        <div className='user-details'>
+                            <span className='user-name '>Nabeel</span>
+                            Ahmad 00
+                            <div className='Image-section'>
+                                <img className='main-icons' src={logo} alt="This is icon" />
+                                <span >Location area</span> 
                             </div>
-                            <span className='location-detail'>Location area</span>
-                            <br />
-                            <span className='occupation-detail'>Current occupation</span>
-                            <br />
+                            <div className='Image-section'>
+                            <img className='main-icons' src={newLogo} alt="This is icon" />
+                                <span >Current occupation</span>
+                            </div>
                             <span>Experienced occupation: ---</span>
                         </div>
-                    </section>
-                    <div className='edit-text'>edit</div>
+                    <span className='text-editors'>edit</span>
                 </div>
-                <p className='self-edit'>edit</p>
+                <p className='text-editor'>edit</p>
                 <div className='user-introduction'>
-                    <h6 className='user-Selfintro'>Self-introduction</h6>
-                    <p >Fill in self-introduction</p>
+                    <h6 className='user-Intro'>Self-introduction</h6>
+                    <p className='paragraph-editing'>Fill in self-introduction</p>
                 </div>
-                <br />
-                <p className='self-edit'>addition</p>
+                <p className='Add-icon'>addition</p>
                 <div className='user-introduction'>
-                    <h6 className='user-intro'>Work history</h6>
-                    <p >Add work history</p>
+                    <h6 className='user-history'>Work history</h6>
+                    <p className='paragraph-editing'>Add work history</p>
                 </div>
-                <br />
-                <p className='self-edit'>addition</p>
+                <p className='Add-icon'>addition</p>
                 <div className='user-introduction'>
-                    <h6 className='user-intro'>All qualifications</h6>
-                    <p >Add qualification</p>
+                    <h6 className='user-history'>All qualifications</h6>
+                    <p className='paragraph-editing'>Add qualification</p>
                 </div>
             </div>
         </div>
@@ -48,9 +47,3 @@ const Profile = () => {
 }
 
 export default Profile;
-
-
-
-
-
-
