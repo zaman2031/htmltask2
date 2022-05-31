@@ -1,0 +1,35 @@
+$primary-color: #f2F2F2;
+$secondary-color: #45E2B6;
+
+.hope-section {
+    margin: 90px 0 0 56.5%;
+    padding: 25px;
+    width: 380px;
+    line-height: 1.6rem;
+    background-color: $primary-color;
+    box-shadow: 2px 2px 4px 4px $primary-color;
+
+.main-section {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-between;
+
+.section-title {
+    color: $secondary-color;
+    margin-top: 3.5px;
+}
+
+.button-edit::before {
+    font-size: 1rem;
+    content: url(../assets/edit-icon.png);
+}
+}
+ 
+.section-details {
+    font-size: 1.2rem;
+
+.section-detail {
+    margin-bottom: 20px;
+}
+}
+}
