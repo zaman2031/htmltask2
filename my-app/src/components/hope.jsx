@@ -12,7 +12,7 @@ const Hope = () => {
                 <p>Occupation</p>
                 <p>On duty  ------</p>
                 <p>Work style</p>
-                <div>Facility ---</div>
+                <div>Facility ---</div>   
                 <div className='section-detail'>form</div>
                 <div>annual --- </div>
                 <div>income</div>
