@@ -9,7 +9,7 @@ const Info = () => {
           Personal Information <span className="text-private">(Private)</span>
         </div>
         <div className="button-editing">edit</div>
-      </div>
+      </div> 
       <div className="main-work">
         <div className="user-logo">
           <span className="hyphens">---</span>
