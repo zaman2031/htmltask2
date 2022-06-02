@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/location.png';
 import newLogo from '../assets/occupation.png'
 import './Profile.scss'
-
+ 
 const Profile = () => {
     return (
             <div className='profile-section'> 
