@@ -9,7 +9,7 @@ const Hope = () => {
                 <div className='button-edit'>edit</div>
             </div>
             <div className='section-details'> 
-                <p>Occupation</p>
+                <p>Occupation</p>  
                 <p>On duty  ------</p>
                 <p>Work style</p>
                 <div>Facility ---</div>   
