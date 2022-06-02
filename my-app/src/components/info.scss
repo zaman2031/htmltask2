@@ -13,7 +13,7 @@ $basic-color: #808080;
   .main-Info {
     display: flex;
     justify-content: space-between;
-      font-size: 1.2rem;
+    font-size: 1.2rem;
 
     .person-Info {
       color: $secondary-color;
@@ -63,6 +63,6 @@ $basic-color: #808080;
     .bank-details::before {
       content: url(../assets/home.png);
       margin: 5px;
-    }
+    } 
   }
 }
