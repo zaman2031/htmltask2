@@ -4,7 +4,7 @@ import Profile from './components/Profile';
 import Hope from './components/hope';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
        <Navbar />
        <Profile />
