@@ -5,7 +5,7 @@ const Hope = () => {
     return (
         <div className='hope-section'>
             <div className='main-section'>
-               <div className='section-title'>hope condition</div>
+               <span className='section-title'>hope condition</span>
                 <div className='button-edit'>edit</div>
             </div>
             <div className='section-details'>
