@@ -7,6 +7,6 @@ function App() {
        <Profile />
     </div>
   );
-}
+} 
  
 export default App; 
