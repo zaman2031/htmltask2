@@ -5,8 +5,7 @@ import './Profile.scss'
 
 const Profile = () => {
     return (
-        <div className='profile-section'>
-            <div >
+            <div className='profile-section'> 
                 <div className='Profile-page'>
                     <div className='main-logo'>
                         <p> N</p>
@@ -42,7 +41,6 @@ const Profile = () => {
                     <p className='paragraph-editing'>Add qualification</p>
                 </div>
             </div>
-        </div>
     );
 }
 
