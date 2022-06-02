@@ -40,7 +40,7 @@ const Profile = () => {
                     <h6 className='user-history'>All qualifications</h6>
                     <p className='paragraph-editing'>Add qualification</p>
                 </div>
-            </div>
+            </div> 
     );
 }
 
