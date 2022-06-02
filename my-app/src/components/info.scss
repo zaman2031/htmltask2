@@ -1,22 +1,22 @@
 $primary-color: #f2f2f2;
 $secondary-color: #45e2b6;
 $main-color: #000000;
+$basic-color: #808080;
 
 .Info-section {
-  margin: 500px 0 0 1500px;
-  padding: 30px;
-  width: 390px;
-  line-height: 3rem;
-  background-color: $primary-color;
+  margin: 50px 0 0 56.5%;
+  padding: 25px;
+  width: 380px;
+  line-height: 2.6rem;
   box-shadow: 2px 2px 4px 4px $primary-color;
 
   .main-Info {
     display: flex;
     justify-content: space-between;
+      font-size: 1.2rem;
 
     .person-Info {
       color: $secondary-color;
-      font-size: 1.2rem;
     }
 
     .text-private {
@@ -45,22 +45,24 @@ $main-color: #000000;
 
     .user-email::before {
       content: url(../assets/home.png);
-      margin: 5px 5px 5px 5px;
+      margin: 5px;
     }
 
     .user-phone::before {
       content: url(../assets/home.png);
-      margin: 5px 5px 5px 5px;
+      margin: 5px;
     }
 
     .user-house::before {
       content: url(../assets/home.png);
-      margin: 5px 5px 5px 5px;
+      margin: 5px;
     }
-
+    .account-details{
+      color: $basic-color;
+    }
     .bank-details::before {
       content: url(../assets/home.png);
-      margin: 5px 5px 5px 5px;
+      margin: 5px;
     }
   }
 }

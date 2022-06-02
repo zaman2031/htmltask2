@@ -24,7 +24,7 @@ const Info = () => {
           <span>---</span>
         </div>
         <div className="bank-details">
-          <span>Transfer account not set</span>
+          <span className="account-details">Transfer account not set</span>
         </div>
       </div>
     </div>
