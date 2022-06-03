@@ -1,6 +1,6 @@
 $primary-color: #F2F2F2;
 $secondary-color: #ffffff;
-$basic-color:  #45E2B6; 
+$basic-color:  #45E2B6;
 $main-color: #808080;
 $green-color: #00907E;
 
@@ -10,10 +10,10 @@ $green-color: #00907E;
     margin: 80px 0 0 300px;
     box-shadow: $primary-color 0px 7px 29px 0px;
     background-color: $secondary-color;
-    padding: 3rem;  
+    padding: 3rem;
 
     .Profile-page {
-        display: flex; 
+        display: flex;
         .main-logo {
             color: $secondary-color;
             background: $green-color;
@@ -26,8 +26,8 @@ $green-color: #00907E;
             justify-content: center;
             align-items: center;
         }
-        
-        .user-details { 
+
+        .user-details {
             margin: 10px 0 0 44px;
             font-size: 1.1rem;
             line-height: 1.7rem;
@@ -45,8 +45,8 @@ $green-color: #00907E;
             .main-icons {
                 height: 20px;
                 width: 20px;
-                margin: 5px 5px 0 0 ; 
-            }            
+                margin: 5px 5px 0 0 ;
+            }
         }
 
         .text-editors {
@@ -62,7 +62,7 @@ $green-color: #00907E;
         float: right;
         margin: 52px 12px 0 0 ;
     }
- 
+
     .text-editor::before {
         content: url(../assets/edit-icon.png);
         margin: 5px 0 30px 0;
