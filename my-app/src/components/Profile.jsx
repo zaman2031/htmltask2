@@ -41,7 +41,7 @@ const Profile = () => {
                     <p className='paragraph-editing'>Add qualification</p>
                 </div>
             </div> 
-    );
+    )
 } 
 
 export default Profile;
