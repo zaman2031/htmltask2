@@ -9,12 +9,12 @@ const Hope = () => {
                 <div className='button-edit'>edit</div>
             </div>
             <div className='section-details'> 
-                <p>Occupation</p>  
-                <p>On duty  ------</p>
-                <p>Work style</p>
-                <div>Facility ---</div>   
+                <p >Occupation <span className='main-hyphens'>---</span></p>  
+                <p>On duty  <span className='form-spacing main-hyphens'>------</span></p>
+                <p>Work style <span className='main-hyphens'>---</span></p>
+                <div>Facility<span className='form-spacing main-hyphens'>---</span> </div> 
                 <div className='section-detail'>form</div>
-                <div>annual --- </div>
+                <div>annual  <span className='form-spacing main-hyphens'>---</span></div>
                 <div>income</div>
             </div>
         </div>

@@ -1,24 +1,29 @@
 $primary-color: #f2F2F2;
 $secondary-color: #45E2B6;
+$basic-color: #808080;
 
 .hope-section {
-    margin: 90px 0 0 56.5%;
-    padding: 25px;
-    width: 380px;
-    line-height: 1.6rem;
+    margin: 30px 0 0 62.5%;
+    padding: 20px;
+    width: 320px;
     background-color: $primary-color;
     box-shadow: 2px 2px 4px 4px $primary-color;
 
 .main-section {
     display: flex;
-    font-size: 1.3rem;
     justify-content: space-between;
 
 .section-title {
     color: $secondary-color;
-    margin-top: 3.5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 3.5px;
 }
 
+    .button-edit{
+        color: $basic-color;
+    }
 .button-edit::before {
     font-size: 1rem;
     content: url(../assets/edit-icon.png);
@@ -27,6 +32,13 @@ $secondary-color: #45E2B6;
  
 .section-details {
     font-size: 1.2rem;
+
+    .main-hyphens{
+            color: $basic-color;
+    }
+     .form-spacing{
+        padding: 20px;
+    }
 
 .section-detail {
     margin-bottom: 20px;
