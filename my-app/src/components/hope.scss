@@ -4,7 +4,7 @@ $basic-color: #808080;
 
 .hope-section {
     margin: 30px 0 0 62.5%;
-    padding: 20px;
+    padding: 20px; 
     width: 320px;
     background-color: $primary-color;
     box-shadow: 2px 2px 4px 4px $primary-color;
@@ -24,10 +24,12 @@ $basic-color: #808080;
     .button-edit{
         color: $basic-color;
     }
+
 .button-edit::before {
     font-size: 1rem;
     content: url(../assets/edit-icon.png);
 }
+
 }
  
 .section-details {
