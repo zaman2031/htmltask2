@@ -6,11 +6,11 @@ $green-color: #00907E;
 
 .profile-section {
     float: left;
-    line-height: 2rem;
-    margin: 80px 0 0 300px;
-    box-shadow: $primary-color 0px 7px 29px 0px;
+    line-height: 1.4rem;
+    margin: 20px 0 0 200px;
+    box-shadow:  $primary-color 0 7px 29px 0;
     background-color: $secondary-color;
-    padding: 3rem;
+    padding: 2rem;
 
     .Profile-page {
         display: flex;
@@ -35,6 +35,11 @@ $green-color: #00907E;
             .user-name {
                 color: $basic-color;
                 padding-right: 14px;
+                font-weight: bold;
+            }
+            .basic-Userdetail{
+                color: $main-color;
+                font-weight: bold;
             }
 
             .Image-section {
@@ -47,10 +52,15 @@ $green-color: #00907E;
                 width: 20px;
                 margin: 5px 5px 0 0 ;
             }
+            .main-detail{
+                color: $main-color;
+            }
+            
         }
 
         .text-editors {
             margin: 10px 0 0 400px;
+            color: $main-color;
         }
 
         .text-editors::before {
@@ -61,6 +71,7 @@ $green-color: #00907E;
     .text-editor {
         float: right;
         margin: 52px 12px 0 0 ;
+        color: $main-color;
     }
 
     .text-editor::before {
@@ -83,10 +94,11 @@ $green-color: #00907E;
     .Add-icon {
         float: right;
         margin: 35px 12px 0 0 ;
+        color: $main-color;
     }
 
     .Add-icon::before {
-        content: url(../assets/Addition.png);
+        content: url(../assets//Addition.png);
         margin: 5px;
     }
 

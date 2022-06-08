@@ -12,16 +12,16 @@ const Profile = () => {
                     </div>
                         <div className='user-details'>
                             <span className='user-name '>Nabeel</span>
-                            Ahmad 00
+                               <span className='basic-Userdetail'>Ahmad 00</span>
                             <div className='Image-section'>
                                 <img className='main-icons' src={logo} alt="This is icon" />
-                                <span >Location area</span> 
+                                <span className='main-detail'>Location area</span> 
                             </div>
                             <div className='Image-section'>
                             <img className='main-icons' src={newLogo} alt="This is icon" />
-                                <span >Current occupation</span>
+                                <span className='main-detail'>Current occupation</span>
                             </div>
-                            <span>Experienced occupation: ---</span>
+                            <span className='main-detail'>Experienced occupation: ---</span>
                         </div>
                     <span className='text-editors'>edit</span>
                 </div>
