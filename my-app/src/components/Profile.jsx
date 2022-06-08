@@ -14,7 +14,7 @@ const Profile = () => {
                             <span className='user-name '>Nabeel</span>
                                <span className='basic-Userdetail'>Ahmad 00</span>
                             <div className='Image-section'>
-                                <img className='main-icons' src={logo} alt="This is icon" />
+                                <img className='main-icons' src={logo} alt="This is icon" /> 
                                 <span className='main-detail'>Location area</span> 
                             </div>
                             <div className='Image-section'>
